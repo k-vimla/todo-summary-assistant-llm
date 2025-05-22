@@ -1,8 +1,8 @@
-//import logo from './logo.svg';
 import { useState, useEffect } from 'react';
-import Todos from "./components/Todos";
 import axios from 'axios';
+import Todos from "./components/Todos";
 import './App.css';
+
 
 function App() {
   const [todos, setTodos] = useState(null);
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>This is ToDo App for assessemnt</h1>
+      <Todos todos={todos}/>
     </div>
   );
 }
