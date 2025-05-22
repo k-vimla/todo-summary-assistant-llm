@@ -1,0 +1,21 @@
+.todoItem{
+    margin: 2rem 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+
+}
+.todoItem h1{
+    background: #e0906b;
+    padding: 1rem;
+    color: rgb(247, 238, 229);
+}
+.todoItem h1:hover{
+    background: #f4f4f4;
+    color: #1f3c88;
+    transition: 0.7s ease;
+    
+}
+.todoItem:hover{
+    cursor: pointer;
+    transition: 0.7s ease;
+}
