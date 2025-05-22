@@ -1,5 +1,5 @@
 import React from 'react';
-const TodoItem = (todo) =>{
+const TodoItem = ({todo}) =>{
     return (
         <div className='todoItem'>
             <h1>{todo.message}</h1>
